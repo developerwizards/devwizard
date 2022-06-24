@@ -1,0 +1,4 @@
+[submodule "thedevwizard/public"]
+	path = thedevwizard/public
+	url = https://github.com/developerwizards/thedevwizard.github.io.git
+	branch = main
