@@ -1,4 +1,5 @@
-baseURL = "https://thedevwizard.github.io"
+baseURL = "https://www.thedevwizard.in/"
+#baseURL = "https://developerwizards.github.io"
 
 theme = "LoveIt"
 
@@ -141,7 +142,7 @@ languageName = ["English", "简体中文"]
       # LoveIt CHANGED | 0.2.7 title shown in home page (HTML format is supported)
       title = ""
       # subtitle shown in home page (HTML format is supported)
-      subtitle = "Hello World, I am Azure Data Engineer and Spark developer. You will find here blogs written by me. Feel free to connect with me."
+      subtitle = "Hello World! My name is Amardeep Gupta, and I am a Big Data Engineer with experience in Azure, AWS, PySpark, Kafka streaming, and Databricks. Here, you'll discover blogs authored by me. Feel free to connect with me."
       # whether to use typeit animation for subtitle
       typeit = true
       # whether to show social links
@@ -157,15 +158,18 @@ languageName = ["English", "简体中文"]
       # default behavior when you don't set "hiddenFromHomePage" in front matter
       defaultHiddenFromHomePage = false
 
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
+
 
 # Social config about the author
   [params.social]
-    GitHub = "xxxx"
-    Linkedin = ""
-    Twitter = "xxxx"
-    Instagram = "xxxx"
-    Facebook = "xxxx"
-    Telegram = "xxxx"
+    GitHub = "developerwizards"
+    Linkedin = "amardeep-gupta-a948b2117"
+    Twitter = "amardeepg35"
+    Instagram = "the_dev_wizard/"
+    Facebook = "DeveloperWizards"
+    Telegram = "the_dev_wizard"
     Medium = ""
     Gitlab = ""
     Youtubelegacy = ""
@@ -202,7 +206,7 @@ languageName = ["English", "简体中文"]
     Twitch = ""
     Strava = ""
     Skype = ""
-    Whatsapp = ""
+    Whatsapp = "" 
     Zhihu = ""
     Douban = ""
     Angellist = ""
@@ -231,7 +235,7 @@ languageName = ["English", "简体中文"]
     MediaWiki= ""
     Plume = ""
     Phone = ""
-    Email = "xxxx@xxxx.com"
+    Email = "amardeepg35@gmail.com"
     RSS = false # LoveIt NEW | 0.2.0
 
 # LoveIt CHANGED | 0.2.0 Page global config
@@ -259,7 +263,7 @@ languageName = ["English", "简体中文"]
       # whether to enable the table of the contents
       enable = true
       # LoveIt NEW | 0.2.9 whether to keep the static table of the contents in front of the post
-      keepStatic = true
+      keepStatic = false
       # whether to make the table of the contents in the sidebar automatically collapsed
       auto = true
     # LoveIt CHANGED | 0.2.0 KaTeX mathematical formulas
@@ -302,8 +306,8 @@ languageName = ["English", "简体中文"]
       enable = true
       Twitter = true
       Facebook = true
-      Linkedin = false
-      Whatsapp = false
+      Linkedin = true
+      Whatsapp = true
       Pinterest = false
       Tumblr = false
       HackerNews = true
@@ -311,11 +315,11 @@ languageName = ["English", "简体中文"]
       VK = false
       Buffer = false
       Xing = false
-      Line = true
+      Line = false
       Instapaper = false
       Pocket = false
       Flipboard = false
-      Weibo = true
+      Weibo = false
       Blogger = false
       Baidu = false
       Odnoklassniki = false
@@ -323,15 +327,16 @@ languageName = ["English", "简体中文"]
       Skype = false
       Trello = false
       Mix = false
+
     # LoveIt CHANGED | 0.2.0 Comment config
     [params.page.comment]
-      enable = false
+      enable = true
       # Disqus comment config
       [params.page.comment.disqus]
         # LoveIt NEW | 0.1.1
-        enable = false
+        enable = true
         # Disqus shortname to use Disqus in posts
-        shortname = ""
+        shortname = "www-thedevwizard-in"
       # Gitalk comment config
       [params.page.comment.gitalk]
         # LoveIt NEW | 0.1.1
